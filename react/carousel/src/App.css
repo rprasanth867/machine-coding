@@ -1,0 +1,69 @@
+#root {
+  min-height: 100vh;
+}
+
+.carousel-page {
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  color: #f4f4f5;
+  background: #18181b;
+  font-family: system-ui, sans-serif;
+}
+
+.carousel-page h1 {
+  font-size: 1.5rem;
+}
+
+.carousel {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  width: min(100%, 850px);
+}
+
+.carousel-slide {
+  min-width: 0;
+  margin: 0;
+}
+
+.carousel-slide img {
+  display: block;
+  width: 100%;
+  height: min(65vh, 560px);
+  object-fit: contain;
+  background: #09090b;
+}
+
+.carousel-slide figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.75rem;
+}
+
+.carousel-control {
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid #52525b;
+  border-radius: 50%;
+  color: inherit;
+  background: #27272a;
+  font: inherit;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel-control:hover {
+  background: #3f3f46;
+}
+
+.carousel-control:focus-visible {
+  outline: 3px solid #a1a1aa;
+  outline-offset: 3px;
+}
