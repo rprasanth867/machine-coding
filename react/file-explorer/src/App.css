@@ -1,0 +1,17 @@
+.app {
+  padding: 200px;
+
+}
+
+.folder-item {
+  display: flex;
+  background-color: aliceblue;
+}
+
+.expand-btn {
+  margin-right: 10px;
+}
+
+.name {
+  flex: 1;
+}
